@@ -1,0 +1,28 @@
+#img-logo {
+  width: 100px;
+}
+#link-login {
+  color: rgb(207, 207, 207);
+  text-decoration: none;
+}
+
+#mainsection {
+  background-color: #212529;
+  height: 50vh;
+}
+.box-register {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+.f-5 {
+  font-size: 4rem;
+}
+@media (max-width: 998px) {
+  .f-5 {
+    font-size: 2rem;
+  }
+  #mainsection {
+    height: 75vh !important;
+  }
+}
